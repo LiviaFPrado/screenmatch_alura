@@ -6,6 +6,7 @@ import br.com.alura.screenmatch.modelos.Titulo;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class PrincipalComListas {
     static void main() {
@@ -18,7 +19,7 @@ public class PrincipalComListas {
         filmeDoPaulo.avalia(10);
 
 
-        ArrayList<Titulo> lista = new ArrayList<>();
+        List<Titulo> lista = new ArrayList<>();
         lista.add(meuFilme);
         lista.add(outroFilme);
         lista.add(filmeDoPaulo);
